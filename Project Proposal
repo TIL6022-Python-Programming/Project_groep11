@@ -7,6 +7,25 @@ Influence of 3 international shocks from different domains on air traffic at Sch
     Economic: Financial crisis of 2008/2009
     Pandemic: COVID-19
 
+Research question:
+How did international air passenger traffic at Schiphol airport change around three major external disruptions: 9/11, the global financial crisis, and COVID-19? 
+
+Variables:
+What?
+Air traffic from Schiphol
+Air traffic to other countries
+
+Timespan:
+24 months before, percentages and 
+12 months/moment during the shock
+24 months after
+
+Per shock we look at:
+Total amount of passengers
+Total amount of flights
+Procentual change of flights
+Recovery time
+ 
 
 ## Problem and Proposed Solution
 The project will identify a task or problem that can be made simpler through software. Based on user needs, the team will design and build a focused, easy-to-use application, then evaluate whether it solves the problem effectively.
