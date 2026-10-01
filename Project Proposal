@@ -1,43 +1,42 @@
-# Project Proposal
+# Project Proposal Group 11
 
-## Project Overview
-Subject
-Influence of 3 international shocks from different domains on air traffic at Schiphol Amsterdam Airport:
-    Security/geopolitical: 9/11
-    Economic: Financial crisis of 2008/2009
-    Pandemic: COVID-19
+## Research objective
 
-Research question:
+Air passenger traffic can be strongly affected by major external disruptions. However, disruptions from different domains may differ in both the magnitude and duration of the effects. This project compares three disruptions from different domains:
+    1. Security/geopolitical: The 9/11 attacks
+    2. Economic: Financial crisis of 2008/2009
+    3. Pandemic: COVID-19
+
+The objective of this project is to analyse and compare changes in air passenger traffic in at Amsterdam Airport Schiphol during and after these three major disruptions.
+
+### Research question
 How did international air passenger traffic at Schiphol airport change around three major external disruptions: 9/11, the global financial crisis, and COVID-19? 
 
-Variables:
-What?
-Air traffic from Schiphol
-Air traffic to other countries
+### Variables 
+- Montly total number of passengers
+- Percentage change in passenger numbers
+- Maximum relative decline
+- Recovery time
 
-Timespan:
-24 months before, percentages and 
-12 months/moment during the shock
-24 months after
+### Temporal scale
+- Approximately 24 months before each disruption
+- The main disruption period
+- Approximately 24 months after each disruption
 
-Per shock we look at:
-Total amount of passengers
-Total amount of flights
-Procentual change of flights
-Recovery time
- 
+### Geographical scale
+Amsterdam Airport Schiphol, the Netherlands
 
-## Problem and Proposed Solution
-The project will identify a task or problem that can be made simpler through software. Based on user needs, the team will design and build a focused, easy-to-use application, then evaluate whether it solves the problem effectively.
+## Datasets
+### Primary dataset
+The main dataset used in this project is the montly traffic dataset of Amsterdam Airport Schiphol. 
+Source: https://www.schiphol.nl/nl/schiphol-group/verkeer-en-vervoer-cijfers/
 
-## Objectives
-- Research the problem and define clear requirements.
-- Design and implement the core solution in Python.
-- Test functionality, usability, and reliability.
-- Document the application and present the final result.
+The dataset contains monthly passenger data from 1992 onwards. 
+For this project, the main variable of interest is the total number of passengers per month. 
 
-## Plan and Deliverables
-Work will proceed through research and planning, design, implementation, testing, and final presentation. Deliverables will include a working application, its source code, relevant documentation, and a demonstration. Team responsibilities and milestone dates will be agreed upon once the project scope is confirmed.
+### Additional dataset
+CBS - Montly numbers of Dutch airports of national importance
+Source: https://opendata.cbs.nl/#/CBS/nl/dataset/37478hvv/table
 
-## Success Criteria
-The application meets the agreed requirements, performs reliably during testing, and is understandable and useful to its intended users.
+### Intended data analysis pipeline
+...
