@@ -39,4 +39,20 @@ CBS - Montly numbers of Dutch airports of national importance
 Source: https://opendata.cbs.nl/#/CBS/nl/dataset/37478hvv/table
 
 ### Intended data analysis pipeline
-...
+From primary dataset (Schiphol):
+- Load the data
+- Clean the data so it's uniformly used across all needed data (2 years before, main disruption period and 2 years after). The file contains a lot of data so this is an important step
+- Calculate the average/baseline for these periods, this is needed to set a standard to compare the 3 situations
+- Index the 3 situations to make the actual comparison
+- Find the extremes per shock; what is the actual impact and recovery time
+- Interpretation of the collected data; which shock had the most impact on air traffic
+
+From additional dataset(s):
+For now there is only one additional dataset since the primary dataset is very large. The CBS file itself is very small and only shows air traffic in and out, which the other dataset probably shows aswell. We will use this dataset more as verification to see if Schiphol's data is correct. 
+
+### Hypothesis
+We expect COVID-19 to have the longest recovery time, 9/11 to have the biggest dip in actual flights at time of the shock and the financial crisis to be the least impacting.
+
+### Limitations
+- We will look at the periods before, during and after the shock. We will however not consider any other circumstances in these periods, e.g. maximum capacitity of Schiphol, vulcanic eruption in Iceland (2010), which also could impact the amount of air traffic from Schiphol
+- We will only look at the flights in and out of Schiphol and not compare this to other dutch airports
