@@ -97,7 +97,7 @@ def load_and_clean_data(file_path):
 # Load data
 try:
     df_schiphol = load_and_clean_data(
-        "Monthly_traffic_data_1992-current (1).xlsx"
+        "financial_data/Monthly_traffic_data_1992-current.xlsx"
     )
 except Exception as e:
     st.error(
@@ -346,3 +346,6 @@ sns.despine(top=True, right=True)
 plt.tight_layout()
 
 st.pyplot(fig)
+
+# to run it:
+# & 'C:\Users\Koen\anaconda3\envs\PythonTil6022\python.exe' -m streamlit run c:/Users/Koen/Downloads/Python_Files/Project_groep11/app.py
